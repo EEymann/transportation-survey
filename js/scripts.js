@@ -1,6 +1,6 @@
 //user interface logic
 
-$(docutment).ready(function(){
+$(document).ready(function(){
   $("form#transportation_survey").submit(function(event){
     event.preventDefault();
     $("#work-responses").show();
